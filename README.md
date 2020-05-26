@@ -1,16 +1,14 @@
 # SurfaceNet+
-- An End-to-end 3D Neural Network for Very Sparse MVS
+- An End-to-end 3D Neural Network for Very Sparse MVS.
 - **Key contributions**
-    1. Proposed a Sparse-MVS benchmark 
-        * (under construction)
-        * Comprehensive evaluation of the 
-        * Based on the datasets: DTU and T&T 
+    1. Proposed a Sparse-MVS benchmark (under construction)
+        * Comprehensive evaluation on the datasets: [DTU](http://roboimagedata.compute.dtu.dk/?page_id=36), [Tanks and Temples](https://www.tanksandtemples.org/), etc.
     2. Proposed a **trainable occlusion-aware** view selection scheme for the volumetric MVS method, e.g., [SurfaceNet](https://github.com/mjiUST/SurfaceNet)[5]. 
-    3. Analysed the advantages of the volumetric method, e.g., [SurfaceNet](https://github.com/mjiUST/SurfaceNet)[5], on the **Sparse-MVS problem** over the depth-fusion methods, e.g., [Gipuma](https://github.com/kysucix/gipuma) [6], [R-MVSNet](https://github.com/YoYo000/MVSNet)[7], [Point-MVSNet](https://github.com/callmeray/PointMVSNet)[8], and [COLMAP](https://github.com/colmap/colmap)[9].
+    3. Analysed the advantages of the volumetric methods, e.g., [SurfaceNet](https://github.com/mjiUST/SurfaceNet)[5] and SurfaceNet+, on the **Sparse-MVS problem** over the depth-fusion methods, e.g., [Gipuma](https://github.com/kysucix/gipuma) [6], [R-MVSNet](https://github.com/YoYo000/MVSNet)[7], [Point-MVSNet](https://github.com/callmeray/PointMVSNet)[8], and [COLMAP](https://github.com/colmap/colmap)[9].
 
 # Sparse-MVS Benchmark 
 
-## Sparse-MVS of DTU dataset
+## (1) Sparse-MVS of the DTU dataset
 
 <p align="center">
   <img width="460" src="figures/teaser.jpg">
@@ -21,19 +19,21 @@
 <p align="center">
   <img width="460" src="figures/DTU.jpg">
   
-  Fig.2: Illustration of a very sparse MVS setting using only $1/7$ of the camera views, i.e., $\{v_i\}_{i=1,8,15,22,...}$, to recover the model 23 in the DTU dataset [10]. Compared with the state-of-the-art methods, the proposed SurfaceNet+ provides much complete reconstruction, especially around the boarder region captured by very sparse views.
+  Fig.2: Comparison with the existing methods in the DTU Dataset [10] with different sparsely sampling strategy. When Sparsity = 3 and Batchsize = 2, the chosen camera indexes are 1,2 / 4,5 / 7,8 / 10,11 / .... SurfaceNet+ constantly outperforms the state-of-the-art methods at all the settings, especially at the very sparse scenario.
 </p>
 
-## Sparse-MVS of T&T dataset
+## (2) Sparse-MVS of the T&T dataset
 
 <p align="center">
   <img width="460" src="figures/T&T.jpg">
   
-  Fig.3: Illustration of a very sparse MVS setting using only $1/7$ of the camera views, i.e., $\{v_i\}_{i=1,8,15,22,...}$, to recover the model 23 in the DTU dataset [10]. Compared with the state-of-the-art methods, the proposed SurfaceNet+ provides much complete reconstruction, especially around the boarder region captured by very sparse views.
+  Fig.3: Results of a tank model in the Tanks and Temples 'intermediate' set [23] compared with R-MVSNet [7] and COLMAP [9], which demonstrate the power of SurfaceNet+ of high recall prediction in the sparse-MVS setting.
 </p>
 
+## (3) under construction ...
 
-## Citing SurfaceNet+
+
+# Citing
 
 If you find SurfaceNet+, the Sparse-MVS benchmark, or [SurfaceNet](https://github.com/mjiUST/SurfaceNet) useful in your research, please consider citing:
 
