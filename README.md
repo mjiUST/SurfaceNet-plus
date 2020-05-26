@@ -1,5 +1,5 @@
-# SurfaceNet+
-- An End-to-end 3D Neural Network for Very Sparse MVS.
+# [SurfaceNet+](https://ieeexplore.ieee.org/document/9099504)
+- An End-to-end 3D Neural Network for Very Sparse MVS. 2020TPAMI [early access](https://ieeexplore.ieee.org/document/9099504).
 - **Key contributions**
     1. Proposed a Sparse-MVS benchmark (under construction)
         * Comprehensive evaluation on the datasets: [DTU](http://roboimagedata.compute.dtu.dk/?page_id=36), [Tanks and Temples](https://www.tanksandtemples.org/), etc.
@@ -11,23 +11,23 @@
 ## (1) Sparse-MVS of the DTU dataset
 
 <p align="center">
-  <img width="460" src="figures/teaser.jpg">
+  <img width="500" src="figures/teaser.jpg">
   
-  Fig.1: Illustration of a very sparse MVS setting using only $1/7$ of the camera views, i.e., $\{v_i\}_{i=1,8,15,22,...}$, to recover the model 23 in the DTU dataset [10]. Compared with the state-of-the-art methods, the proposed SurfaceNet+ provides much complete reconstruction, especially around the boarder region captured by very sparse views.
+  **Fig.1**: Illustration of a very sparse MVS setting using only $1/7$ of the camera views, i.e., $\{v_i\}_{i=1,8,15,22,...}$, to recover the model 23 in the DTU dataset [10]. Compared with the state-of-the-art methods, the proposed SurfaceNet+ provides much complete reconstruction, especially around the boarder region captured by very sparse views.
 </p>
 
 <p align="center">
-  <img width="460" src="figures/DTU.jpg">
+  <img width="500" src="figures/DTU.jpg">
   
-  Fig.2: Comparison with the existing methods in the DTU Dataset [10] with different sparsely sampling strategy. When Sparsity = 3 and Batchsize = 2, the chosen camera indexes are 1,2 / 4,5 / 7,8 / 10,11 / .... SurfaceNet+ constantly outperforms the state-of-the-art methods at all the settings, especially at the very sparse scenario.
+  **Fig.2**: Comparison with the existing methods in the DTU Dataset [10] with different sparsely sampling strategy. When Sparsity = 3 and Batchsize = 2, the chosen camera indexes are 1,2 / 4,5 / 7,8 / 10,11 / .... SurfaceNet+ constantly outperforms the state-of-the-art methods at all the settings, especially at the very sparse scenario.
 </p>
 
 ## (2) Sparse-MVS of the T&T dataset
 
 <p align="center">
-  <img width="460" src="figures/T&T.jpg">
+  <img width="500" src="figures/T&T.jpg">
   
-  Fig.3: Results of a tank model in the Tanks and Temples 'intermediate' set [23] compared with R-MVSNet [7] and COLMAP [9], which demonstrate the power of SurfaceNet+ of high recall prediction in the sparse-MVS setting.
+  **Fig.3**: Results of a tank model in the Tanks and Temples 'intermediate' set [23] compared with R-MVSNet [7] and COLMAP [9], which demonstrate the power of SurfaceNet+ of high recall prediction in the sparse-MVS setting.
 </p>
 
 ## (3) under construction ...
