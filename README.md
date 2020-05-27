@@ -1,5 +1,7 @@
-# [SurfaceNet+](https://ieeexplore.ieee.org/document/9099504)
-- An End-to-end 3D Neural Network for Very Sparse MVS. 2020TPAMI [early access](https://ieeexplore.ieee.org/document/9099504).
+# SurfaceNet+
+- An End-to-end 3D Neural Network for Very Sparse MVS. 
+    * 2020TPAMI [early access link](https://ieeexplore.ieee.org/document/9099504).
+    * or Arxiv [preprint version](https://arxiv.org/abs/2005.12690).
 - **Key contributions**
     1. Proposed a Sparse-MVS benchmark (under construction)
         * Comprehensive evaluation on the datasets: [DTU](http://roboimagedata.compute.dtu.dk/?page_id=36), [Tanks and Temples](https://www.tanksandtemples.org/), etc.
