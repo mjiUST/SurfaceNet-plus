@@ -24,7 +24,7 @@
   **Fig.2**: Comparison with the existing methods in the DTU Dataset [10] with different sparsely sampling strategy. When Sparsity = 3 and Batchsize = 2, the chosen camera indexes are 1,2 / 4,5 / 7,8 / 10,11 / .... SurfaceNet+ constantly outperforms the state-of-the-art methods at all the settings, especially at the very sparse scenario.
 </p>
 
-## (2) (Sparse-MVS of the T&T dataset](http://sparse-mvs.com/leaderboard.html)
+## (2) [Sparse-MVS of the T&T dataset](http://sparse-mvs.com/leaderboard.html)
 
 <p align="center">
   <img width="500" src="figures/T&T.jpg">
