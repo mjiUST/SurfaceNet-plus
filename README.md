@@ -10,6 +10,10 @@
 
 # [Sparse-MVS Benchmark](http://sparse-mvs.com) 
 
+<p align="center">
+  <img width="800" src="figures/teaser.png">
+</p>
+
 ## (1) [Sparse-MVS of the DTU dataset](http://sparse-mvs.com/leaderboard.html)
 
 <p align="center">
